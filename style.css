@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select, textarea, button,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: 'Kanit', sans-serif;
+    
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+.clear {
+    clear: both;
+}
+.comingsoon{
+    margin: 200px 500px;
+    font-size: 70px;
+    width: 100%;
+}
+.header{
+    background: black;
+    height: 30px;
+}
+.main-page{
+    display: flex;
+    justify-content: space-between ;
+    margin-bottom: 10px;
+}
+.title{
+    display: flex;
+    margin-left: 165px;
+    margin-top: 61px;
+    color: #000;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+
+.selections{
+    display: flex;
+    text-align: center;
+    margin-top: 54px;
+    margin-right: 77px;
+}
+.selections button{
+    color: var(--neutral-07, #2C2F24);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    background: white; 
+    padding: 4px 16px;
+    margin: 25px;
+    border: 1px solid transparent;
+    border-radius: 34px;
+    cursor: pointer;
+}
+.selections a{
+    color: black;
+}
+.selections button:hover{
+    background-color: grey;
+    transition: 1s;
+}
+.main-text{
+    display: flex;
+    justify-content: center;
+    
+}
+.main-text svg{
+    width: 500px;
+    height: 500px;
+    margin-left: 60px;
+}
+.about{
+    margin-left: 50px;
+}
+.about h3{
+    color: #000;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.text{
+    margin-top: 27px;
+    margin-right: 164px;
+    color: #000;
+    font-family: 'Raleway', sans-serif;    font-size: 18px;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 135.2%; 
+    width: 539px;
+    height: 408px;
+}
+.text p{
+    margin-top: 20px;
+}
+.bottom{
+    height: 250px;
+    background: black;
+    
+}
+.info-buttons{
+    padding-left: 165px;
+    padding-top: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+}
+.left-side h3{
+    width: 231px;
+    height: 32px;
+    font-family: "Playfair Display" sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.left-side a{
+    color: white;
+    margin-bottom: 10px;
+}
+.right-side{
+    margin-right: 200px;
+}
+.right-side h2{
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.right-side input{
+    display: inline-flex;
+    height: 30px;
+    padding: 3px 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    border: 0.7px solid #FFF;
+    background-color: black;
+    color: white;
+}
+.right-side input::placeholder{
+    color: white;
+}
